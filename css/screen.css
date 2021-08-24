@@ -1,0 +1,18 @@
+/* CSS Document */
+/* Color pallette: https://coolors.co/194f6e-0b294d-9dacb2-828a8f-ffffff-fbe79d-b58500-9e1b32 */
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: hsla(44, 100%, 35%, 1);
+    padding: 10px;
+}
+
+body {
+    background-color: hsla(349, 71%, 36%, 1);
+    color: hsla(0, 0%, 100%, 1);
+}
+
+a, li {
+    color: hsla(213, 75%, 17%, 1); 
+    font-size: 1.05em;
+}
