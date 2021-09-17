@@ -1,0 +1,27 @@
+body {
+    background-color: hsla(330, 10%, 4%, 1);
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: hsla(330, 9%, 96%, 1);
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: hsla(359, 87%, 21%, 1);
+}
+
+p {
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: end;
+}
