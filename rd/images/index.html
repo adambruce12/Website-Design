@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MDN</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <main>
+        <h2>src and srcset</h2>
+        <p>The src and srcset attributes are used to provide different sized versions of an image. This allows the browser to choose
+        which version to use based on a multitude of factors. The src attribute gets assigned like normal, but the srcset attribute
+        can take an additional parameter such as 2x, letting the browser know to use that image if being displayed on a higher 
+        pixel-density display. The src and srcset attributes can be combined under the srcset attribute, using a comma to separate
+        values. More info can be found <a href="https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset">
+        here.</a></p>
+        <h2>Sizes</h2>
+        <p>The sizes attribute sets the width an image will be display within the layout of a site. This means that image width is
+        both layout and viewport dependent. The sizes attribute can be used to set the width of an image across multiple breakpoints, with
+        values being separated by a comma. </p>
+        <h2>Art Direction</h2>
+        <p>Art Direction is a technique that utilizes media queries and multiple versions of the same image, all sized differently,
+        to change the image being displayed based on breakpoints. It is commonly used as a way to crop and zoom images but it can
+        also be used to create images for users in dark mode, avoid sending GIFS to users that prefer reduced motion, set a maximum 
+        resolution cap, or send static, high-res, monochrome images to printers and e-ink devices.</p>
+        <h2>Summary</h2>
+        <p>Art direction, sizes, and the src and srcset attributes provide meaningful ways to use the appropriate image at the appropriate
+        time. Knowing what syntax to use and when to use allows web developers to be offering the best UI while also making choices that
+        offer the best UX for users. </p>
+    </main>
+    <footer>
+        <p> 
+            <a href="../../index.html">&copy; 2021 Adam</a> 
+            <a href="javascript:void(location='https://jigsaw.w3.org/css-validator/validator?uri='+escape(location))">CSS</a> 
+            <a href="javascript:void(location='https://validator.w3.org/nu/?doc='+escape(location))">HTML</a> 
+        </p>
+    </footer>
+</div>
+</body>
+</html>
