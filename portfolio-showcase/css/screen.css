@@ -408,8 +408,6 @@ body {
      text-align: center;
 }
 
-
-
 .cards {
     display: grid;
     gap: 20px;
@@ -421,7 +419,15 @@ body {
     background-color: hsla(0, 0%, 90%, 1);
     text-align: center;
     border: 2px solid hsla(219, 100%, 10%, 1);
-    
+    padding-bottom: 5px;
+}
+
+.card h2 {
+    color: black;
+}
+
+.card a {
+    color: black;
 }
 
 .card p {
@@ -449,11 +455,36 @@ footer a[href^=javascript] {
     margin-right: 5px;
 }
 
+h2 {
+    color: white;
+}
 
 a {
     color: hsla(0, 0%, 100%, 1);
 }
 
+#gmap {
+    clear: both;
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    background: url(images/gmap.png) no-repeat center / cover;
+}
+
+#gmap h4 {
+    font-size: 1.4em;
+}
+
+#gmap span {
+    display: block;
+    font-size: .8em;
+}
+
+#gmap ul {
+    list-style: disc;
+    padding: 5px 20px;
+    font-size: 1.2em;
+}
 
 /*Tablet Styling*/
 @media screen and (min-width: 768px) {
